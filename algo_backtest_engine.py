@@ -1,5 +1,4 @@
 # live_dashboard_fixed_rectitem.py
-# Requires: pip install pyqt5 pyqtgraph websocket-client pandas
 import sys, json, random, time
 from datetime import datetime
 from collections import deque
@@ -9,10 +8,10 @@ from PyQt5 import QtWidgets, QtCore, QtGui
 import pyqtgraph as pg
 import websocket
 
-# ---------- CONFIG ----------
-SIMULATE = True           # set False to use live Binance stream
+
+SIMULATE = True          
 WS_URL = "wss://stream.binance.com:9443/ws/btcusdt@trade"
-CANDLE_INTERVAL = 5      # seconds per candle (set 60 for 1-minute candles)
+CANDLE_INTERVAL = 5    
 MAX_CANDLES = 120
 LIVE_BUFFER = 300
 INITIAL_CAPITAL = 10000.0
@@ -20,9 +19,9 @@ SHORT_SMA = 3
 LONG_SMA = 5
 FEE = 0.001
 
-# ---------- WebSocket thread ----------
+#  WebSocket thread 
 class WebSocketThread(QtCore.QThread):
-    trade_signal = QtCore.pyqtSignal(float, object)   # price, timestamp
+    trade_signal = QtCore.pyqtSignal(float, object)  
     status_signal = QtCore.pyqtSignal(str)
 
     def __init__(self, parent=None):
@@ -37,7 +36,7 @@ class WebSocketThread(QtCore.QThread):
                 price += random.uniform(-30, 30)
                 ts = datetime.now()
                 self.trade_signal.emit(float(price), ts)
-                time.sleep(0.05)   # many trades per second
+                time.sleep(0.05)  
             return
 
         self.status_signal.emit("Connecting to WS...")
@@ -72,8 +71,7 @@ class WebSocketThread(QtCore.QThread):
     def stop(self):
         self._running = False
         self.wait(1000)
-
-# ---------- Dashboard GUI ----------
+# Dashboard GUI 
 class Dashboard(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -162,12 +160,10 @@ class Dashboard(QtWidgets.QMainWindow):
                 'time': self.current_candle['time']
             }
             self.ohlc.append(finished)
-
-            # append equity datapoint always (so equity curve is visible)
             last_price_for_eq = finished['close']
             self.equity_curve.append(self.capital + self.position * last_price_for_eq)
 
-            # SMA logic (may update position)
+            # SMA logic 
             try:
                 df = pd.DataFrame(list(self.ohlc))
                 if len(df) >= LONG_SMA:
@@ -189,20 +185,16 @@ class Dashboard(QtWidgets.QMainWindow):
                     self.equity_curve[-1] = self.capital + self.position * price_now
             except Exception as e:
                 self.on_status(f"SMA error: {e}")
-
-            # reset for next candle
             self.current_candle = {'open': price, 'high': price, 'low': price, 'close': price, 'time': ts}
             self.last_candle_time = ts
 
     def redraw(self):
-        # defensive: ensure plotting doesn't crash the timer loop
+        # ensure plotting doesn't crash the timer loop
         try:
             self.plot.clear()
 
             df = pd.DataFrame(list(self.ohlc))
             n = len(df)
-
-            # draw finalized candles
             if n > 0:
                 for i, row in df.iterrows():
                     x = int(i)
@@ -286,10 +278,9 @@ class Dashboard(QtWidgets.QMainWindow):
         except Exception:
             pass
         event.accept()
-
-# --------- run ----------
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     win = Dashboard()
     win.show()
     sys.exit(app.exec_())
+
