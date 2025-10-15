@@ -20,9 +20,6 @@ equity_curve = []
 ohlc_data = deque(maxlen=MAX_CANDLES)
 trades_buffer = []
 
-# --------------------------
-# MATPLOTLIB SETUP
-
 plt.ion()
 fig = plt.figure(figsize=(12,6))
 ax_candle = plt.subplot2grid((2,3),(0,0), colspan=2)
@@ -145,3 +142,4 @@ ws = websocket.WebSocketApp(url,
                             on_error=on_error,
                             on_close=on_close)
 ws.run_forever()
+
