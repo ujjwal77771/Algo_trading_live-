@@ -4,29 +4,20 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from collections import deque
 
-# --------------------------
-# Parameters
-# --------------------------
 INITIAL_CAPITAL = 10000
 FEE = 0.001
 SHORT_SMA = 3
 LONG_SMA = 5
-CANDLE_INTERVAL = 60  # seconds
-MAX_CANDLES = 50      # number of candles displayed
+CANDLE_INTERVAL = 60  
+MAX_CANDLES = 50      
 
-# --------------------------
-# State
-# --------------------------
 capital = INITIAL_CAPITAL
 position = 0
 equity_curve = []
 ohlc_data = deque(maxlen=MAX_CANDLES)
 trades_buffer = []
 
-# --------------------------
-# Setup matplotlib
-# --------------------------
-plt.ion()  # interactive mode
+plt.ion() 
 
 fig, (ax_candle, ax_equity) = plt.subplots(2, 1, figsize=(12,8), gridspec_kw={'height_ratios':[3,1]})
 fig.suptitle("Live BTC/USDT Trading Dashboard", color='lime')
@@ -52,10 +43,6 @@ def plot_dashboard(df, equity_curve):
 
     plt.tight_layout()
     plt.pause(0.01)
-
-# --------------------------
-# Helper functions
-# --------------------------
 def create_candle(trades):
     if not trades:
         return None
@@ -72,9 +59,9 @@ def create_candle(trades):
 def compute_sma(df, window):
     return df['Close'].rolling(window).mean()
 
-# --------------------------
+
 # WebSocket callback
-# --------------------------
+
 def on_message(ws, message):
     global trades_buffer, ohlc_data, capital, position, equity_curve
 
@@ -85,8 +72,6 @@ def on_message(ws, message):
         'time': datetime.fromtimestamp(msg['T']/1000)
     }
     trades_buffer.append(trade)
-
-    # Aggregate into candle every CANDLE_INTERVAL
     if len(trades_buffer) > 0:
         first_time = trades_buffer[0]['time']
         last_time = trades_buffer[-1]['time']
@@ -95,8 +80,6 @@ def on_message(ws, message):
             trades_buffer.clear()
             if candle:
                 ohlc_data.append(candle)
-
-            # Prepare DataFrame
             df = pd.DataFrame(list(ohlc_data)).set_index('time')
 
             if len(df) >= LONG_SMA:
@@ -148,3 +131,4 @@ ws = websocket.WebSocketApp(url,
                             on_error=on_error,
                             on_close=on_close)
 ws.run_forever()
+
