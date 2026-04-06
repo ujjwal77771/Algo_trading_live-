@@ -1,26 +1,47 @@
-import sys, time
+import sys
+import random
 from PyQt5 import QtWidgets, QtCore
 import pyqtgraph as pg
 from collections import deque
-import random
 
-prices = deque(maxlen=100)
-
-class TestDashboard(QtWidgets.QMainWindow):
+class LiveDashboard(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Live Test Plot")
-        self.plot_widget = pg.PlotWidget(title="Test Price")
+        
+        # Window Setup ....
+        self.setWindowTitle("Market Monitor v1.0")
+        self.resize(800, 600)
+        
+        # Data Setup.....
+        self.max_points = 100
+        self.data_buffer = deque(maxlen=self.max_points)
+        
+        # Plot UI Setup____________
+        self.plot_widget = pg.PlotWidget(title="Real-time Asset Price")
+        self.plot_widget.showGrid(x=True, y=True)
         self.setCentralWidget(self.plot_widget)
-        self.curve = self.plot_widget.plot(pen='g')
+        
+        # Create the curve object once_-___-_-__
+        self.curve = self.plot_widget.plot(pen=pg.mkPen('g', width=2))
+        
+        # Refresh Timer
         self.timer = QtCore.QTimer()
-        self.timer.timeout.connect(self.update_plot)
+        self.timer.timeout.connect(self.refresh_data)
         self.timer.start(200)
 
-    def update_plot(self):
-        prices.append(random.uniform(30000, 40000))  # simulate price
-        self.curve.setData(list(range(len(prices))), list(prices))
+    def refresh_data(self):
+        # Generate dummy data
+        new_price = random.uniform(30000, 40000)
+        self.data_buffer.append(new_price)
+        
+        # Update the existing curve
+        # Note: list() --conversion is necessary for pyqtgraph to process deques
+        self.curve.setData(list(self.data_buffer))
 
-app = QtWidgets.QApplication(sys.argv)
-window = TestDashboard()
-window.show()
+if __name__ == "__main__":
+    app = QtWidgets.QApplication(sys.argv)
+    app.setStyle("Fusion")
+    
+    window = LiveDashboard()
+    window.show()
+    sys.exit(app.exec_())
