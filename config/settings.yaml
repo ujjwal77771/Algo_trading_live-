@@ -1,0 +1,22 @@
+# Core Settings
+environment: simulation # options: simulation, live, backtest
+base_asset: BTC
+quote_asset: USDT
+broker_mode: paper # options: paper, live
+
+# Risk Parameters
+initial_capital: 10000.0
+trading_fee: 0.001
+risk_per_trade_pct: 0.01
+atr_multiplier: 2.0
+max_drawdown: 0.15
+max_daily_loss: 0.05
+
+# ML Parameters
+ml:
+  lookback: 50
+  horizon: 5
+  model_dir: model_registry/
+
+# Notifications
+voice_alerts: false

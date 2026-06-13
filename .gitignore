@@ -1,7 +1,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.exe
+*.so
+*.pkl
+*.db
+.env
+model_registry/*.pkl
+historical_data_cache/
+.idea/
 .vscode/
-*.log
-*.csv
