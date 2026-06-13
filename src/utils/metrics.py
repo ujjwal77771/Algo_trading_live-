@@ -11,8 +11,9 @@ import pandas as pd
 from typing import Dict, Any
 
 # Maps timeframe strings (matching exchange conventions) to periods per year.
-# Crypto markets trade 365 days/year, equities ~252 — caller chooses
-# the right base via the timeframe string they pass in.
+# NOTE: This table assumes a 365-day crypto calendar (markets never close).
+# Equity markets use ~252 trading days — supporting equities would require
+# a parallel table or a market_type config key. Out of scope for now (BTC/USDT only).
 TIMEFRAME_TO_ANNUAL_PERIODS: Dict[str, float] = {
     '1m':   365 * 24 * 60,
     '5m':   365 * 24 * 12,
