@@ -38,7 +38,7 @@ def calculate_atr(high: pd.Series, low: pd.Series, close: pd.Series, window: int
 def calculate_adx(high: pd.Series, low: pd.Series, close: pd.Series, window: int = 14) -> pd.Series:
     """Calculates Average Directional Index."""
     plus_dm = high.diff()
-    minus_dm = low.diff()
+    minus_dm = -low.diff()  # Negate: positive when low decreases (bearish DM)
     
     plus_dm = np.where((plus_dm > minus_dm) & (plus_dm > 0), plus_dm, 0.0)
     minus_dm = np.where((minus_dm > plus_dm) & (minus_dm > 0), minus_dm, 0.0)

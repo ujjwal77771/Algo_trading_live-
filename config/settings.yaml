@@ -1,8 +1,9 @@
 # Core Settings
-environment: simulation # options: simulation, live, backtest
+environment: simulation  # options: simulation, live, backtest
 base_asset: BTC
 quote_asset: USDT
-broker_mode: paper # options: paper, live
+broker_mode: paper  # options: paper, live
+timeframe: '1h'     # bar timeframe — used for Sharpe annualization
 
 # Risk Parameters
 initial_capital: 10000.0
@@ -11,6 +12,15 @@ risk_per_trade_pct: 0.01
 atr_multiplier: 2.0
 max_drawdown: 0.15
 max_daily_loss: 0.05
+reward_risk_ratio: 1.5  # TP = SL distance × this value
+
+# Signal Parameters
+signals:
+  ema_fast: 12
+  ema_slow: 26
+  rsi_window: 14
+  rsi_overbought: 70
+  rsi_oversold: 30
 
 # ML Parameters
 ml:
