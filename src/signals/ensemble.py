@@ -81,6 +81,14 @@ class EnsembleSignal(SignalBase):
         Returns:
             ``1`` (Buy), ``-1`` (Sell), or ``0`` (Hold).
         """
+        # 0. Minimum-bars safety gate — never trade on thin data -----------
+        if data is None or len(data) < 2:
+            logger.warning(
+                "EnsembleSignal: insufficient bars (%d). Emitting HOLD.",
+                len(data) if data is not None else 0,
+            )
+            return 0
+
         # 1. Detect regime ------------------------------------------------
         regime: str = self.regime_detector.detect(data)
 

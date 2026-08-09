@@ -129,10 +129,12 @@ def test_max_drawdown_triggers_halt(rm: RiskManager) -> None:
 
 
 def test_drawdown_below_threshold_no_halt(rm: RiskManager) -> None:
-    """No halt if drawdown is within bounds."""
-    rm.update_equity(10_000.0)
-    rm.update_equity(9_000.0)    # 10 % drawdown < 15 %
+    """No halt if drawdown is within bounds and daily loss is not exceeded."""
+    rm.update_equity(10_000.0)              # sets peak + start_of_day_equity
+    rm.update_equity(9_500.0, is_new_day=True)  # new day resets daily baseline to 9500
+    rm.update_equity(9_050.0)              # 4.7% daily loss (< 5%) and ~9.5% drawdown (< 15%)
     assert rm.halted is False
+
 
 
 def test_daily_loss_triggers_halt(rm: RiskManager) -> None:

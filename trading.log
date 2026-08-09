@@ -1,0 +1,121 @@
+2026-08-09 22:49:12,325 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,648 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,680 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,682 - AlgoTrading - WARNING - EnsembleSignal: rule signal raised RuntimeError: Feed unavailable
+2026-08-09 22:49:12,682 - AlgoTrading - WARNING - EnsembleSignal: a child signal returned None. Emitting HOLD to avoid trading on missing data.
+2026-08-09 22:49:12,687 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,688 - AlgoTrading - WARNING - EnsembleSignal: ml signal raised RuntimeError: Feed unavailable
+2026-08-09 22:49:12,689 - AlgoTrading - WARNING - EnsembleSignal: a child signal returned None. Emitting HOLD to avoid trading on missing data.
+2026-08-09 22:49:12,693 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,697 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,703 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,709 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,713 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:49:12,717 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:49:12,724 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:49:12,728 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:49:12,730 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:49:12,739 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:49:12,741 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:49:12,746 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:49:12,748 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:49:12,751 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=10, atr_mult=2.00, labelable bars=90/100
+2026-08-09 22:49:12,753 - AlgoTrading - INFO - Label distribution:
+label
+1.0    90
+2026-08-09 22:49:12,757 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=10, atr_mult=2.00, labelable bars=90/100
+2026-08-09 22:49:12,759 - AlgoTrading - INFO - Label distribution:
+label
+-1.0    90
+2026-08-09 22:49:12,764 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:49:12,768 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:49:12,779 - AlgoTrading - INFO - Leakage check passed — no feature exceeds 0.99 |correlation| with label
+2026-08-09 22:49:12,784 - AlgoTrading - WARNING - LEAKAGE DETECTED: feature 'leaked' has 1.0000 correlation with label
+2026-08-09 22:49:12,857 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:49:12,903 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:49:12,908 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:49:12,949 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:49:12,957 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:49:12,997 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:49:13,002 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:49:13,042 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:49:13,047 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:49:13,095 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:49:13,097 - AlgoTrading - INFO - Building features for 101 bars
+2026-08-09 22:49:13,134 - AlgoTrading - INFO - Features built: 35 columns, 58 bars (43 dropped for warm-up)
+2026-08-09 22:49:13,177 - AlgoTrading - WARNING - Max drawdown reached: 20.00%. Halting trading.
+2026-08-09 22:49:13,178 - AlgoTrading - WARNING - Max daily loss reached: 20.00%. Halting trading.
+2026-08-09 22:49:13,185 - AlgoTrading - WARNING - Max daily loss reached: 10.00%. Halting trading.
+2026-08-09 22:49:13,206 - AlgoTrading - WARNING - Max daily loss reached: 6.00%. Halting trading.
+2026-08-09 22:49:13,208 - AlgoTrading - WARNING - Max daily loss reached: 5.16%. Halting trading.
+2026-08-09 22:50:12,655 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,657 - AlgoTrading - WARNING - EnsembleSignal: insufficient bars (0). Emitting HOLD.
+2026-08-09 22:50:12,660 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,663 - AlgoTrading - WARNING - EnsembleSignal: insufficient bars (1). Emitting HOLD.
+2026-08-09 22:50:12,667 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,671 - AlgoTrading - WARNING - EnsembleSignal: rule signal raised RuntimeError: Feed unavailable
+2026-08-09 22:50:12,673 - AlgoTrading - WARNING - EnsembleSignal: a child signal returned None. Emitting HOLD to avoid trading on missing data.
+2026-08-09 22:50:12,683 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,685 - AlgoTrading - WARNING - EnsembleSignal: ml signal raised RuntimeError: Feed unavailable
+2026-08-09 22:50:12,686 - AlgoTrading - WARNING - EnsembleSignal: a child signal returned None. Emitting HOLD to avoid trading on missing data.
+2026-08-09 22:50:12,691 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,702 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,712 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,720 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,729 - AlgoTrading - INFO - EnsembleSignal initialised.
+2026-08-09 22:50:12,737 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:50:12,743 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:50:12,747 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:50:12,750 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:50:12,753 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:50:12,755 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:50:12,759 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:50:12,762 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:50:12,767 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=10, atr_mult=2.00, labelable bars=90/100
+2026-08-09 22:50:12,770 - AlgoTrading - INFO - Label distribution:
+label
+1.0    90
+2026-08-09 22:50:12,773 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=10, atr_mult=2.00, labelable bars=90/100
+2026-08-09 22:50:12,775 - AlgoTrading - INFO - Label distribution:
+label
+-1.0    90
+2026-08-09 22:50:12,780 - AlgoTrading - INFO - Computing triple-barrier labels: horizon=5, atr_mult=2.00, labelable bars=45/50
+2026-08-09 22:50:12,783 - AlgoTrading - INFO - Label distribution:
+label
+0.0    45
+2026-08-09 22:50:12,793 - AlgoTrading - INFO - Leakage check passed — no feature exceeds 0.99 |correlation| with label
+2026-08-09 22:50:12,800 - AlgoTrading - WARNING - LEAKAGE DETECTED: feature 'leaked' has 1.0000 correlation with label
+2026-08-09 22:50:12,807 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:50:12,859 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:50:12,865 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:50:12,916 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:50:12,923 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:50:12,977 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:50:12,981 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:50:13,025 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:50:13,033 - AlgoTrading - INFO - Building features for 300 bars
+2026-08-09 22:50:13,095 - AlgoTrading - INFO - Features built: 35 columns, 257 bars (43 dropped for warm-up)
+2026-08-09 22:50:13,097 - AlgoTrading - INFO - Building features for 101 bars
+2026-08-09 22:50:13,152 - AlgoTrading - INFO - Features built: 35 columns, 58 bars (43 dropped for warm-up)
+2026-08-09 22:50:13,189 - AlgoTrading - WARNING - Max drawdown reached: 20.00%. Halting trading.
+2026-08-09 22:50:13,189 - AlgoTrading - WARNING - Max daily loss reached: 20.00%. Halting trading.
+2026-08-09 22:50:13,196 - AlgoTrading - WARNING - Max daily loss reached: 6.00%. Halting trading.
+2026-08-09 22:50:13,201 - AlgoTrading - WARNING - Max daily loss reached: 5.16%. Halting trading.
