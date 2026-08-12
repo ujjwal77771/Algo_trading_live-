@@ -59,13 +59,30 @@ def _parse_args() -> argparse.Namespace:
 # ── Data loading ───────────────────────────────────────────────────────────
 
 def _load_data(path: str) -> pd.DataFrame:
-    """Load OHLCV CSV.  Expects columns: timestamp, open, high, low, close, volume."""
+    """Load OHLCV CSV.  Auto-detects the date/timestamp column name and
+    normalises all column names to lowercase."""
     data_path = Path(path)
     if not data_path.exists():
         raise FileNotFoundError(f"Data file not found: {data_path}")
 
-    df = pd.read_csv(data_path, parse_dates=["timestamp"], index_col="timestamp")
+    # Read without parsing dates first so we can detect the column name
+    df = pd.read_csv(data_path)
+
+    # Normalise all column names to lowercase
     df.columns = [c.lower() for c in df.columns]
+
+    # Detect the date column — accept 'timestamp', 'date', 'datetime', 'time'
+    date_col_candidates = ["timestamp", "date", "datetime", "time"]
+    date_col = next((c for c in date_col_candidates if c in df.columns), None)
+    if date_col is None:
+        raise ValueError(
+            f"CSV has no recognisable date column. Found: {list(df.columns)}. "
+            f"Rename the date column to one of: {date_col_candidates}"
+        )
+
+    df[date_col] = pd.to_datetime(df[date_col])
+    df = df.set_index(date_col)
+    df.index.name = "timestamp"
 
     required = {"open", "high", "low", "close", "volume"}
     missing = required - set(df.columns)
@@ -73,7 +90,7 @@ def _load_data(path: str) -> pd.DataFrame:
         raise ValueError(f"CSV is missing required columns: {missing}")
 
     df = df.sort_index()
-    logger.info("Loaded %d bars from %s", len(df), data_path)
+    logger.info("Loaded %d bars from %s (date col: '%s')", len(df), data_path, date_col)
     return df
 
 
@@ -162,6 +179,12 @@ def main() -> None:
     equity_curve_df = engine.run()
     trades_df       = pd.DataFrame(engine.trades)
 
+    if equity_curve_df.empty:
+        print("\n[ERROR] Backtest produced no results.")
+        print(f"Your CSV has {len(df)} bars but needs at least ~50 for warmup.")
+        print("Download more historical data and try again.")
+        return
+
     # ── Compute metrics ───────────────────────────────────────────────────
     equity_series = equity_curve_df["equity"]
     metrics = calculate_metrics(equity_series, trades_df, timeframe=timeframe)
@@ -200,16 +223,17 @@ def main() -> None:
         ("Win Rate",        f"{metrics['win_rate']:.2%}"),
         ("Avg Win",         f"${metrics['avg_win']:.2f}"),
         ("Avg Loss",        f"${metrics['avg_loss']:.2f}"),
-        (""),
+        None,
         ("Buy-and-Hold",    f"{bah['total_return']:.2%}"),
     ]
     for row in rows:
-        if len(row) == 1:
+        if row is None:
             print("-" * 60)
         else:
             print(f"  {row[0]:<22} {row[1]:>34}")
+
     print("=" * 60)
-    print(f"\nMetrics saved → {output_path}")
+    print(f"\nMetrics saved -> {output_path}")
     logger.info("Backtest complete. Results saved to %s", output_path)
 
 

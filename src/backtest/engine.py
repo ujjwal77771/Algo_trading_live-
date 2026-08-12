@@ -110,7 +110,8 @@ class BacktestEngine:
 
         prev_date = None
 
-        for i in range(50, len(self.data)):
+        warmup = min(50, max(1, len(self.data) - 1))
+        for i in range(warmup, len(self.data)):
             # Simulate real-time data availability
             current_data = self.data.iloc[:i + 1]
             current_row = current_data.iloc[-1]
@@ -211,4 +212,10 @@ class BacktestEngine:
                         )
 
         logger.info("Backtest completed.")
+        if not self.equity_curve:
+            logger.warning(
+                "No bars were processed — dataset may be smaller than the "
+                "warmup window (%d bars). Run with more data.", warmup
+            )
+            return pd.DataFrame(columns=['equity'])
         return pd.DataFrame(self.equity_curve).set_index('timestamp')
