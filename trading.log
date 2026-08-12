@@ -535,3 +535,696 @@ label
 2026-08-12 13:58:54,795 - AlgoTrading - INFO - Backtest completed.
 2026-08-12 13:58:57,193 - AlgoTrading - INFO - Batch-logged 32 trades to journal.
 2026-08-12 13:58:57,200 - AlgoTrading - INFO - TradeJournal connection closed.
+2026-08-12 14:06:34,407 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:34,428 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:34,442 - AlgoTrading - INFO - Paper Executed: BUY 0.1448348778938529 BTC/USDT @ 62499.67 (Fee: 9.05)
+2026-08-12 14:06:34,443 - AlgoTrading - INFO - Entry: price=62499.67, qty=0.144835, SL=61809.23, TP=63535.34
+2026-08-12 14:06:34,528 - AlgoTrading - INFO - Paper Executed: SELL 0.1448348778938529 BTC/USDT @ 62606.16 (Fee: 9.07)
+2026-08-12 14:06:34,528 - AlgoTrading - INFO - Exit (signal): price=62606.16, pnl=-2.70
+2026-08-12 14:06:34,538 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10012.304302705345, have 9997.303349030126
+2026-08-12 14:06:34,540 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10012.304302705345, have 9997.303349030126
+2026-08-12 14:06:34,546 - AlgoTrading - INFO - Paper Executed: BUY 0.15005172486644117 BTC/USDT @ 63491.74 (Fee: 9.53)
+2026-08-12 14:06:34,546 - AlgoTrading - INFO - Entry: price=63491.74, qty=0.150052, SL=62825.48, TP=64491.13
+2026-08-12 14:06:34,555 - AlgoTrading - INFO - Paper Executed: SELL 0.15005172486644117 BTC/USDT @ 62794.07 (Fee: 9.42)
+2026-08-12 14:06:34,555 - AlgoTrading - INFO - Exit (stop_loss): price=62794.07, pnl=-123.64
+2026-08-12 14:06:34,557 - AlgoTrading - INFO - Paper Executed: BUY 0.13174676737212146 BTC/USDT @ 62696.10 (Fee: 8.26)
+2026-08-12 14:06:34,557 - AlgoTrading - INFO - Entry: price=62696.10, qty=0.131747, SL=61946.66, TP=63820.27
+2026-08-12 14:06:34,560 - AlgoTrading - INFO - Paper Executed: SELL 0.13174676737212146 BTC/USDT @ 62452.60 (Fee: 8.23)
+2026-08-12 14:06:34,560 - AlgoTrading - INFO - Exit (signal): price=62452.60, pnl=-48.57
+2026-08-12 14:06:34,570 - AlgoTrading - INFO - Paper Executed: BUY 0.0958049481506791 BTC/USDT @ 63619.17 (Fee: 6.10)
+2026-08-12 14:06:34,570 - AlgoTrading - INFO - Entry: price=63619.17, qty=0.095805, SL=62593.64, TP=65157.47
+2026-08-12 14:06:34,601 - AlgoTrading - INFO - Paper Executed: SELL 0.0958049481506791 BTC/USDT @ 63024.47 (Fee: 6.04)
+2026-08-12 14:06:34,602 - AlgoTrading - INFO - Exit (signal): price=63024.47, pnl=-69.11
+2026-08-12 14:06:34,603 - AlgoTrading - INFO - Paper Executed: BUY 0.11787050416122145 BTC/USDT @ 63593.83 (Fee: 7.50)
+2026-08-12 14:06:34,604 - AlgoTrading - INFO - Entry: price=63593.83, qty=0.117871, SL=62766.14, TP=64835.36
+2026-08-12 14:06:34,633 - AlgoTrading - INFO - Paper Executed: SELL 0.11787050416122145 BTC/USDT @ 62734.76 (Fee: 7.39)
+2026-08-12 14:06:34,633 - AlgoTrading - INFO - Exit (stop_loss): price=62734.76, pnl=-116.15
+2026-08-12 14:06:34,681 - AlgoTrading - INFO - Paper Executed: BUY 0.13452486776048383 BTC/USDT @ 62935.10 (Fee: 8.47)
+2026-08-12 14:06:34,681 - AlgoTrading - INFO - Entry: price=62935.10, qty=0.134525, SL=62218.52, TP=64009.98
+2026-08-12 14:06:34,708 - AlgoTrading - INFO - Paper Executed: SELL 0.13452486776048383 BTC/USDT @ 63977.97 (Fee: 8.61)
+2026-08-12 14:06:34,708 - AlgoTrading - INFO - Exit (take_profit): price=63977.97, pnl=123.22
+2026-08-12 14:06:34,741 - AlgoTrading - INFO - Paper Executed: BUY 0.1184256313863715 BTC/USDT @ 63946.83 (Fee: 7.57)
+2026-08-12 14:06:34,741 - AlgoTrading - INFO - Entry: price=63946.83, qty=0.118426, SL=63122.42, TP=65183.43
+2026-08-12 14:06:34,801 - AlgoTrading - INFO - Paper Executed: SELL 0.1184256313863715 BTC/USDT @ 63967.93 (Fee: 7.58)
+2026-08-12 14:06:34,801 - AlgoTrading - INFO - Exit (signal): price=63967.93, pnl=-12.65
+2026-08-12 14:06:34,820 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9765.04099911384, have 9750.410508146368
+2026-08-12 14:06:34,822 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9765.04099911384, have 9750.410508146368
+2026-08-12 14:06:34,823 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9765.04099911384, have 9750.410508146368
+2026-08-12 14:06:34,825 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9765.04099911384, have 9750.410508146368
+2026-08-12 14:06:34,837 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9765.040999113839, have 9750.410508146368
+2026-08-12 14:06:34,920 - AlgoTrading - INFO - Paper Executed: BUY 0.1270759492257995 BTC/USDT @ 64523.12 (Fee: 8.20)
+2026-08-12 14:06:34,920 - AlgoTrading - INFO - Entry: price=64523.12, qty=0.127076, SL=63755.83, TP=65674.05
+2026-08-12 14:06:34,968 - AlgoTrading - INFO - Paper Executed: SELL 0.1270759492257995 BTC/USDT @ 64094.79 (Fee: 8.14)
+2026-08-12 14:06:34,968 - AlgoTrading - INFO - Exit (signal): price=64094.79, pnl=-70.77
+2026-08-12 14:06:35,066 - AlgoTrading - INFO - Paper Executed: BUY 0.13668685668495664 BTC/USDT @ 63942.00 (Fee: 8.74)
+2026-08-12 14:06:35,066 - AlgoTrading - INFO - Entry: price=63942.00, qty=0.136687, SL=63233.83, TP=65004.24
+2026-08-12 14:06:35,142 - AlgoTrading - INFO - Paper Executed: SELL 0.13668685668495664 BTC/USDT @ 64971.74 (Fee: 8.88)
+2026-08-12 14:06:35,142 - AlgoTrading - INFO - Exit (take_profit): price=64971.74, pnl=123.13
+2026-08-12 14:06:35,144 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9817.47613628058, have 9802.767084270632
+2026-08-12 14:06:35,145 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9817.47613628058, have 9802.767084270632
+2026-08-12 14:06:35,147 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9817.476136280578, have 9802.767084270632
+2026-08-12 14:06:35,149 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9817.47613628058, have 9802.767084270632
+2026-08-12 14:06:35,151 - AlgoTrading - INFO - Paper Executed: BUY 0.14881667662089446 BTC/USDT @ 64160.06 (Fee: 9.55)
+2026-08-12 14:06:35,151 - AlgoTrading - INFO - Entry: price=64160.06, qty=0.148817, SL=63501.35, TP=65148.14
+2026-08-12 14:06:35,153 - AlgoTrading - INFO - Paper Executed: SELL 0.14881667662089446 BTC/USDT @ 63886.02 (Fee: 9.51)
+2026-08-12 14:06:35,153 - AlgoTrading - INFO - Exit (signal): price=63886.02, pnl=-59.84
+2026-08-12 14:06:35,168 - AlgoTrading - INFO - Paper Executed: BUY 0.08943742268828876 BTC/USDT @ 65631.55 (Fee: 5.87)
+2026-08-12 14:06:35,168 - AlgoTrading - INFO - Entry: price=65631.55, qty=0.089437, SL=64542.19, TP=67265.59
+2026-08-12 14:06:35,232 - AlgoTrading - INFO - Paper Executed: SELL 0.08943742268828876 BTC/USDT @ 65603.19 (Fee: 5.87)
+2026-08-12 14:06:35,232 - AlgoTrading - INFO - Exit (signal): price=65603.19, pnl=-14.27
+2026-08-12 14:06:35,361 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,363 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,365 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,366 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,368 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,370 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,372 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,373 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,375 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,377 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,378 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,380 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,381 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,383 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,385 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,387 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,407 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,413 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,418 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,420 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,422 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,424 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,425 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,427 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758, have 9728.656016405386
+2026-08-12 14:06:35,429 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9743.253864758002, have 9728.656016405386
+2026-08-12 14:06:35,430 - AlgoTrading - INFO - Paper Executed: BUY 0.14313282045885714 BTC/USDT @ 64719.79 (Fee: 9.26)
+2026-08-12 14:06:35,430 - AlgoTrading - INFO - Entry: price=64719.79, qty=0.143133, SL=64040.10, TP=65739.34
+2026-08-12 14:06:35,444 - AlgoTrading - INFO - Paper Executed: SELL 0.14313282045885714 BTC/USDT @ 64788.84 (Fee: 9.27)
+2026-08-12 14:06:35,444 - AlgoTrading - INFO - Exit (signal): price=64788.84, pnl=-8.65
+2026-08-12 14:06:35,506 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,508 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.586641770467, have 9720.001779100929
+2026-08-12 14:06:35,510 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,511 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,513 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,515 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,516 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9734.58664177047, have 9720.001779100929
+2026-08-12 14:06:35,519 - AlgoTrading - INFO - Paper Executed: BUY 0.14938254010364257 BTC/USDT @ 64697.03 (Fee: 9.66)
+2026-08-12 14:06:35,519 - AlgoTrading - INFO - Entry: price=64697.03, qty=0.149383, SL=64046.35, TP=65673.05
+2026-08-12 14:06:35,521 - AlgoTrading - INFO - Paper Executed: SELL 0.14938254010364257 BTC/USDT @ 64014.33 (Fee: 9.56)
+2026-08-12 14:06:35,522 - AlgoTrading - INFO - Exit (stop_loss): price=64014.33, pnl=-121.21
+2026-08-12 14:06:35,523 - AlgoTrading - INFO - Paper Executed: BUY 0.13581153733420648 BTC/USDT @ 63840.23 (Fee: 8.67)
+2026-08-12 14:06:35,523 - AlgoTrading - INFO - Entry: price=63840.23, qty=0.135812, SL=63133.46, TP=64900.39
+2026-08-12 14:06:35,530 - AlgoTrading - INFO - Paper Executed: SELL 0.13581153733420648 BTC/USDT @ 63490.25 (Fee: 8.62)
+2026-08-12 14:06:35,530 - AlgoTrading - INFO - Exit (signal): price=63490.25, pnl=-64.82
+2026-08-12 14:06:35,551 - AlgoTrading - INFO - Paper Executed: BUY 0.12692685767267015 BTC/USDT @ 64340.16 (Fee: 8.17)
+2026-08-12 14:06:35,551 - AlgoTrading - INFO - Entry: price=64340.16, qty=0.126927, SL=63589.03, TP=65466.87
+2026-08-12 14:06:35,596 - AlgoTrading - INFO - Paper Executed: SELL 0.12692685767267015 BTC/USDT @ 63557.23 (Fee: 8.07)
+2026-08-12 14:06:35,596 - AlgoTrading - INFO - Exit (stop_loss): price=63557.23, pnl=-115.61
+2026-08-12 14:06:35,664 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,666 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,668 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,672 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,676 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,677 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,679 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,681 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,682 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,685 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,687 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,689 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,690 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,692 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,694 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,695 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,697 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,698 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,700 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,703 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920603, have 9418.357004235746
+2026-08-12 14:06:35,704 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,706 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9432.489248920601, have 9418.357004235746
+2026-08-12 14:06:35,725 - AlgoTrading - INFO - Paper Executed: BUY 0.13492795839230948 BTC/USDT @ 63726.76 (Fee: 8.60)
+2026-08-12 14:06:35,725 - AlgoTrading - INFO - Entry: price=63726.76, qty=0.134928, SL=63028.73, TP=64773.80
+2026-08-12 14:06:35,807 - AlgoTrading - INFO - Paper Executed: SELL 0.13492795839230948 BTC/USDT @ 64741.41 (Fee: 8.74)
+2026-08-12 14:06:35,807 - AlgoTrading - INFO - Exit (take_profit): price=64741.41, pnl=119.57
+2026-08-12 14:06:35,810 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,816 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,822 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,824 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,825 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,828 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,830 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,831 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,833 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,836 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,837 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,839 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,841 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,842 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,844 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,845 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,847 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,854 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,856 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,887 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,888 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,890 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,891 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,893 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,895 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,896 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,898 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,900 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,902 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.2401747028, have 9537.928512969092
+2026-08-12 14:06:35,904 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,905 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,907 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,908 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,910 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,911 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,913 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,915 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,918 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,920 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,921 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,923 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,924 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,927 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,929 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,930 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,932 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,934 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,936 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,938 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,939 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,941 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,943 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,944 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,946 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,962 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,964 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,977 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,978 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,980 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,981 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,983 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,985 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,987 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,989 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,990 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,992 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,993 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,995 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,996 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702803, have 9537.928512969092
+2026-08-12 14:06:35,998 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:35,999 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9552.240174702802, have 9537.928512969092
+2026-08-12 14:06:36,065 - AlgoTrading - INFO - Backtest completed.
+2026-08-12 14:06:36,075 - AlgoTrading - INFO - MACDSignal: fast=12, slow=26, signal=9, adx_thresh=20.0
+2026-08-12 14:06:36,076 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:36,149 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:36,331 - AlgoTrading - INFO - Paper Executed: BUY 0.09815125107791109 BTC/USDT @ 63763.87 (Fee: 6.26)
+2026-08-12 14:06:36,331 - AlgoTrading - INFO - Entry: price=63763.87, qty=0.098151, SL=62745.03, TP=65292.12
+2026-08-12 14:06:36,369 - AlgoTrading - INFO - Paper Executed: SELL 0.09815125107791109 BTC/USDT @ 63159.41 (Fee: 6.20)
+2026-08-12 14:06:36,369 - AlgoTrading - INFO - Exit (signal): price=63159.41, pnl=-71.79
+2026-08-12 14:06:36,408 - AlgoTrading - INFO - Paper Executed: BUY 0.11419935577512558 BTC/USDT @ 63962.48 (Fee: 7.30)
+2026-08-12 14:06:36,408 - AlgoTrading - INFO - Entry: price=63962.48, qty=0.114199, SL=63093.10, TP=65266.54
+2026-08-12 14:06:36,440 - AlgoTrading - INFO - Paper Executed: SELL 0.11419935577512558 BTC/USDT @ 63061.55 (Fee: 7.20)
+2026-08-12 14:06:36,440 - AlgoTrading - INFO - Exit (stop_loss): price=63061.55, pnl=-117.39
+2026-08-12 14:06:36,527 - AlgoTrading - INFO - Paper Executed: BUY 0.11562920089726164 BTC/USDT @ 62309.12 (Fee: 7.20)
+2026-08-12 14:06:36,527 - AlgoTrading - INFO - Entry: price=62309.12, qty=0.115629, SL=61460.65, TP=63581.83
+2026-08-12 14:06:36,644 - AlgoTrading - INFO - Paper Executed: SELL 0.11562920089726164 BTC/USDT @ 63550.04 (Fee: 7.35)
+2026-08-12 14:06:36,645 - AlgoTrading - INFO - Exit (take_profit): price=63550.04, pnl=128.93
+2026-08-12 14:06:36,869 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9954.671857209894, have 9939.757251454088
+2026-08-12 14:06:36,979 - AlgoTrading - INFO - Paper Executed: BUY 0.12560892527580939 BTC/USDT @ 62365.69 (Fee: 7.83)
+2026-08-12 14:06:36,979 - AlgoTrading - INFO - Entry: price=62365.69, qty=0.125609, SL=61574.36, TP=63552.68
+2026-08-12 14:06:37,019 - AlgoTrading - INFO - Paper Executed: SELL 0.12560892527580939 BTC/USDT @ 63520.90 (Fee: 7.98)
+2026-08-12 14:06:37,020 - AlgoTrading - INFO - Exit (take_profit): price=63520.90, pnl=129.29
+2026-08-12 14:06:37,111 - AlgoTrading - INFO - Paper Executed: BUY 0.14014098566827554 BTC/USDT @ 65460.32 (Fee: 9.17)
+2026-08-12 14:06:37,112 - AlgoTrading - INFO - Entry: price=65460.32, qty=0.140141, SL=64741.83, TP=66538.07
+2026-08-12 14:06:37,122 - AlgoTrading - INFO - Paper Executed: SELL 0.14014098566827554 BTC/USDT @ 64709.46 (Fee: 9.07)
+2026-08-12 14:06:37,122 - AlgoTrading - INFO - Exit (stop_loss): price=64709.46, pnl=-123.47
+2026-08-12 14:06:37,190 - AlgoTrading - INFO - Paper Executed: BUY 0.1332488590849495 BTC/USDT @ 64516.24 (Fee: 8.60)
+2026-08-12 14:06:37,191 - AlgoTrading - INFO - Entry: price=64516.24, qty=0.133249, SL=63769.85, TP=65635.83
+2026-08-12 14:06:37,194 - AlgoTrading - INFO - Paper Executed: SELL 0.1332488590849495 BTC/USDT @ 64037.00 (Fee: 8.53)
+2026-08-12 14:06:37,194 - AlgoTrading - INFO - Exit (signal): price=64037.00, pnl=-80.99
+2026-08-12 14:06:37,264 - AlgoTrading - INFO - Paper Executed: BUY 0.14573989252212874 BTC/USDT @ 63185.57 (Fee: 9.21)
+2026-08-12 14:06:37,264 - AlgoTrading - INFO - Entry: price=63185.57, qty=0.145740, SL=62508.70, TP=64200.86
+2026-08-12 14:06:37,275 - AlgoTrading - INFO - Paper Executed: SELL 0.14573989252212874 BTC/USDT @ 64168.76 (Fee: 9.35)
+2026-08-12 14:06:37,275 - AlgoTrading - INFO - Exit (take_profit): price=64168.76, pnl=124.73
+2026-08-12 14:06:37,483 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10004.310943546508, have 9989.32196593662
+2026-08-12 14:06:37,515 - AlgoTrading - INFO - Paper Executed: BUY 0.10181119716947182 BTC/USDT @ 65034.51 (Fee: 6.62)
+2026-08-12 14:06:37,515 - AlgoTrading - INFO - Entry: price=65034.51, qty=0.101811, SL=64053.35, TP=66506.25
+2026-08-12 14:06:37,605 - AlgoTrading - INFO - Paper Executed: SELL 0.10181119716947182 BTC/USDT @ 66473.00 (Fee: 6.77)
+2026-08-12 14:06:37,605 - AlgoTrading - INFO - Exit (take_profit): price=66473.00, pnl=133.07
+2026-08-12 14:06:37,832 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835343, have 10122.387317665189
+2026-08-12 14:06:37,938 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835345, have 10122.387317665189
+2026-08-12 14:06:38,219 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835343, have 10122.387317665189
+2026-08-12 14:06:38,527 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835345, have 10122.387317665189
+2026-08-12 14:06:38,609 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835347, have 10122.387317665189
+2026-08-12 14:06:38,683 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835345, have 10122.387317665189
+2026-08-12 14:06:38,769 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835345, have 10122.387317665189
+2026-08-12 14:06:38,871 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10137.575959835345, have 10122.387317665189
+2026-08-12 14:06:38,915 - AlgoTrading - INFO - Paper Executed: BUY 0.15333233333836013 BTC/USDT @ 64400.44 (Fee: 9.87)
+2026-08-12 14:06:38,915 - AlgoTrading - INFO - Entry: price=64400.44, qty=0.153332, SL=63740.28, TP=65390.68
+2026-08-12 14:06:38,919 - AlgoTrading - INFO - Paper Executed: SELL 0.15333233333836013 BTC/USDT @ 64151.18 (Fee: 9.84)
+2026-08-12 14:06:38,919 - AlgoTrading - INFO - Exit (signal): price=64151.18, pnl=-57.93
+2026-08-12 14:06:39,021 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836722, have 10064.455696064779
+2026-08-12 14:06:39,221 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836724, have 10064.455696064779
+2026-08-12 14:06:39,287 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836724, have 10064.455696064779
+2026-08-12 14:06:39,354 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836722, have 10064.455696064779
+2026-08-12 14:06:39,428 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836724, have 10064.455696064779
+2026-08-12 14:06:39,513 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10079.557411836722, have 10064.455696064779
+2026-08-12 14:06:39,547 - AlgoTrading - INFO - Backtest completed.
+2026-08-12 14:06:39,552 - AlgoTrading - INFO - BollingerSignal: bb_window=20, bb_std=2.0, rsi=14
+2026-08-12 14:06:39,553 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:39,675 - AlgoTrading - INFO - Paper Executed: BUY 0.1335543976601272 BTC/USDT @ 61784.89 (Fee: 8.25)
+2026-08-12 14:06:39,675 - AlgoTrading - INFO - Entry: price=61784.89, qty=0.133554, SL=61036.13, TP=62908.02
+2026-08-12 14:06:39,679 - AlgoTrading - INFO - Paper Executed: SELL 0.1335543976601272 BTC/USDT @ 62876.57 (Fee: 8.40)
+2026-08-12 14:06:39,679 - AlgoTrading - INFO - Exit (take_profit): price=62876.57, pnl=129.15
+2026-08-12 14:06:39,755 - AlgoTrading - INFO - Paper Executed: BUY 0.10782688864476493 BTC/USDT @ 62049.37 (Fee: 6.69)
+2026-08-12 14:06:39,756 - AlgoTrading - INFO - Entry: price=62049.37, qty=0.107827, SL=61109.98, TP=63458.45
+2026-08-12 14:06:39,816 - AlgoTrading - INFO - Paper Executed: SELL 0.10782688864476493 BTC/USDT @ 63426.72 (Fee: 6.84)
+2026-08-12 14:06:39,816 - AlgoTrading - INFO - Exit (take_profit): price=63426.72, pnl=134.99
+2026-08-12 14:06:39,983 - AlgoTrading - INFO - Paper Executed: BUY 0.16309699175728526 BTC/USDT @ 62837.81 (Fee: 10.25)
+2026-08-12 14:06:39,983 - AlgoTrading - INFO - Entry: price=62837.81, qty=0.163097, SL=62208.49, TP=63781.80
+2026-08-12 14:06:39,999 - AlgoTrading - INFO - Paper Executed: SELL 0.16309699175728526 BTC/USDT @ 62177.38 (Fee: 10.14)
+2026-08-12 14:06:40,000 - AlgoTrading - INFO - Exit (stop_loss): price=62177.38, pnl=-128.10
+2026-08-12 14:06:40,115 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10151.241525216941, have 10136.032408587855
+2026-08-12 14:06:40,153 - AlgoTrading - INFO - Paper Executed: BUY 0.15687157023649367 BTC/USDT @ 62871.18 (Fee: 9.86)
+2026-08-12 14:06:40,154 - AlgoTrading - INFO - Entry: price=62871.18, qty=0.156872, SL=62225.04, TP=63840.38
+2026-08-12 14:06:40,174 - AlgoTrading - INFO - Paper Executed: SELL 0.15687157023649367 BTC/USDT @ 63808.46 (Fee: 10.01)
+2026-08-12 14:06:40,174 - AlgoTrading - INFO - Exit (take_profit): price=63808.46, pnl=127.16
+2026-08-12 14:06:40,413 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10278.593010813003, have 10263.193089582086
+2026-08-12 14:06:40,423 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10278.593010813003, have 10263.193089582086
+2026-08-12 14:06:40,425 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10278.593010813003, have 10263.193089582086
+2026-08-12 14:06:40,427 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10278.593010813003, have 10263.193089582086
+2026-08-12 14:06:40,480 - AlgoTrading - INFO - Paper Executed: BUY 0.1446116640205208 BTC/USDT @ 64125.90 (Fee: 9.27)
+2026-08-12 14:06:40,480 - AlgoTrading - INFO - Entry: price=64125.90, qty=0.144612, SL=63416.19, TP=65190.46
+2026-08-12 14:06:40,597 - AlgoTrading - INFO - Paper Executed: SELL 0.1446116640205208 BTC/USDT @ 64825.59 (Fee: 9.37)
+2026-08-12 14:06:40,597 - AlgoTrading - INFO - Exit (signal): price=64825.59, pnl=82.54
+2026-08-12 14:06:40,644 - AlgoTrading - INFO - Paper Executed: BUY 0.12248891962910369 BTC/USDT @ 63823.90 (Fee: 7.82)
+2026-08-12 14:06:40,644 - AlgoTrading - INFO - Entry: price=63823.90, qty=0.122489, SL=62979.27, TP=65090.83
+2026-08-12 14:06:40,671 - AlgoTrading - INFO - Paper Executed: SELL 0.12248891962910369 BTC/USDT @ 62947.78 (Fee: 7.71)
+2026-08-12 14:06:40,671 - AlgoTrading - INFO - Exit (stop_loss): price=62947.78, pnl=-122.84
+2026-08-12 14:06:40,806 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.22601635309, have 10222.886575047232
+2026-08-12 14:06:40,809 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.22601635309, have 10222.886575047232
+2026-08-12 14:06:40,811 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.22601635309, have 10222.886575047232
+2026-08-12 14:06:40,819 - AlgoTrading - INFO - Paper Executed: BUY 0.1547023588481904 BTC/USDT @ 63302.37 (Fee: 9.79)
+2026-08-12 14:06:40,819 - AlgoTrading - INFO - Entry: price=63302.37, qty=0.154702, SL=62641.56, TP=64293.58
+2026-08-12 14:06:40,819 - AlgoTrading - INFO - Paper Executed: SELL 0.1547023588481904 BTC/USDT @ 62610.23 (Fee: 9.69)
+2026-08-12 14:06:40,819 - AlgoTrading - INFO - Exit (stop_loss): price=62610.23, pnl=-126.55
+2026-08-12 14:06:40,821 - AlgoTrading - INFO - Paper Executed: BUY 0.1533594739708686 BTC/USDT @ 62747.93 (Fee: 9.62)
+2026-08-12 14:06:40,822 - AlgoTrading - INFO - Entry: price=62747.93, qty=0.153359, SL=62089.58, TP=63735.44
+2026-08-12 14:06:40,920 - AlgoTrading - INFO - Paper Executed: SELL 0.1533594739708686 BTC/USDT @ 63703.58 (Fee: 9.77)
+2026-08-12 14:06:40,920 - AlgoTrading - INFO - Exit (take_profit): price=63703.58, pnl=127.17
+2026-08-12 14:06:41,274 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.838941062471, have 10223.49858144102
+2026-08-12 14:06:41,278 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.838941062471, have 10223.49858144102
+2026-08-12 14:06:41,281 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.838941062473, have 10223.49858144102
+2026-08-12 14:06:41,285 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10238.838941062473, have 10223.49858144102
+2026-08-12 14:06:41,367 - AlgoTrading - INFO - Backtest completed.
+2026-08-12 14:06:41,372 - AlgoTrading - INFO - RSIMomentumSignal: fast=7, slow=14, OB=70, OS=30
+2026-08-12 14:06:41,372 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:41,455 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:41,531 - AlgoTrading - INFO - Paper Executed: BUY 0.10070232679919092 BTC/USDT @ 63577.75 (Fee: 6.40)
+2026-08-12 14:06:41,531 - AlgoTrading - INFO - Entry: price=63577.75, qty=0.100702, SL=62584.73, TP=65067.29
+2026-08-12 14:06:41,549 - AlgoTrading - INFO - Paper Executed: SELL 0.10070232679919092 BTC/USDT @ 64010.00 (Fee: 6.45)
+2026-08-12 14:06:41,550 - AlgoTrading - INFO - Exit (signal): price=64010.00, pnl=30.68
+2026-08-12 14:06:41,573 - AlgoTrading - INFO - Paper Executed: BUY 0.12812842002904962 BTC/USDT @ 63287.63 (Fee: 8.11)
+2026-08-12 14:06:41,573 - AlgoTrading - INFO - Entry: price=63287.63, qty=0.128128, SL=62504.77, TP=64461.92
+2026-08-12 14:06:41,596 - AlgoTrading - INFO - Paper Executed: SELL 0.12812842002904962 BTC/USDT @ 63648.15 (Fee: 8.16)
+2026-08-12 14:06:41,596 - AlgoTrading - INFO - Exit (signal): price=63648.15, pnl=29.93
+2026-08-12 14:06:41,633 - AlgoTrading - INFO - Paper Executed: BUY 0.10856565697458566 BTC/USDT @ 62214.21 (Fee: 6.75)
+2026-08-12 14:06:41,633 - AlgoTrading - INFO - Entry: price=62214.21, qty=0.108566, SL=61287.53, TP=63604.24
+2026-08-12 14:06:41,662 - AlgoTrading - INFO - Paper Executed: SELL 0.10856565697458566 BTC/USDT @ 62258.86 (Fee: 6.76)
+2026-08-12 14:06:41,662 - AlgoTrading - INFO - Exit (signal): price=62258.86, pnl=-8.67
+2026-08-12 14:06:41,767 - AlgoTrading - INFO - Paper Executed: BUY 0.13573171883912966 BTC/USDT @ 63949.84 (Fee: 8.68)
+2026-08-12 14:06:41,767 - AlgoTrading - INFO - Entry: price=63949.84, qty=0.135732, SL=63209.26, TP=65060.70
+2026-08-12 14:06:41,787 - AlgoTrading - INFO - Paper Executed: SELL 0.13573171883912966 BTC/USDT @ 64119.92 (Fee: 8.70)
+2026-08-12 14:06:41,787 - AlgoTrading - INFO - Exit (signal): price=64119.92, pnl=5.70
+2026-08-12 14:06:41,839 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10072.736377437948, have 10057.644881293569
+2026-08-12 14:06:41,862 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10072.73637743795, have 10057.644881293569
+2026-08-12 14:06:41,908 - AlgoTrading - INFO - Paper Executed: BUY 0.13991993594422367 BTC/USDT @ 63238.57 (Fee: 8.85)
+2026-08-12 14:06:41,908 - AlgoTrading - INFO - Entry: price=63238.57, qty=0.139920, SL=62519.76, TP=64316.79
+2026-08-12 14:06:41,918 - AlgoTrading - INFO - Paper Executed: SELL 0.13991993594422367 BTC/USDT @ 62488.50 (Fee: 8.74)
+2026-08-12 14:06:41,918 - AlgoTrading - INFO - Exit (stop_loss): price=62488.50, pnl=-122.54
+2026-08-12 14:06:41,931 - AlgoTrading - INFO - Paper Executed: BUY 0.13515071504490658 BTC/USDT @ 62319.37 (Fee: 8.42)
+2026-08-12 14:06:41,931 - AlgoTrading - INFO - Entry: price=62319.37, qty=0.135151, SL=61584.26, TP=63422.04
+2026-08-12 14:06:41,956 - AlgoTrading - INFO - Paper Executed: SELL 0.13515071504490658 BTC/USDT @ 62529.64 (Fee: 8.45)
+2026-08-12 14:06:41,956 - AlgoTrading - INFO - Exit (signal): price=62529.64, pnl=11.54
+2026-08-12 14:06:42,048 - AlgoTrading - INFO - Paper Executed: BUY 0.13368764037245817 BTC/USDT @ 64762.38 (Fee: 8.66)
+2026-08-12 14:06:42,048 - AlgoTrading - INFO - Entry: price=64762.38, qty=0.133688, SL=64018.35, TP=65878.41
+2026-08-12 14:06:42,062 - AlgoTrading - INFO - Paper Executed: SELL 0.13368764037245817 BTC/USDT @ 63986.34 (Fee: 8.55)
+2026-08-12 14:06:42,063 - AlgoTrading - INFO - Exit (stop_loss): price=63986.34, pnl=-120.96
+2026-08-12 14:06:42,068 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9840.432550741376, have 9825.689104240466
+2026-08-12 14:06:42,074 - AlgoTrading - INFO - Paper Executed: BUY 0.14683585581459802 BTC/USDT @ 64408.19 (Fee: 9.46)
+2026-08-12 14:06:42,075 - AlgoTrading - INFO - Entry: price=64408.19, qty=0.146836, SL=63739.03, TP=65411.93
+2026-08-12 14:06:42,097 - AlgoTrading - INFO - Paper Executed: SELL 0.14683585581459802 BTC/USDT @ 63707.16 (Fee: 9.35)
+2026-08-12 14:06:42,097 - AlgoTrading - INFO - Exit (stop_loss): price=63707.16, pnl=-121.75
+2026-08-12 14:06:42,123 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9718.501462625523, have 9703.940699605764
+2026-08-12 14:06:42,232 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9718.50146262552, have 9703.940699605764
+2026-08-12 14:06:42,242 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9718.501462625522, have 9703.940699605764
+2026-08-12 14:06:42,266 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9718.501462625522, have 9703.940699605764
+2026-08-12 14:06:42,307 - AlgoTrading - INFO - Paper Executed: BUY 0.13583778255831327 BTC/USDT @ 64312.15 (Fee: 8.74)
+2026-08-12 14:06:42,307 - AlgoTrading - INFO - Entry: price=64312.15, qty=0.135838, SL=63597.77, TP=65383.72
+2026-08-12 14:06:42,308 - AlgoTrading - INFO - Paper Executed: SELL 0.13583778255831327 BTC/USDT @ 63565.97 (Fee: 8.63)
+2026-08-12 14:06:42,308 - AlgoTrading - INFO - Exit (stop_loss): price=63565.97, pnl=-118.73
+2026-08-12 14:06:42,446 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9599.593730877776, have 9585.21112158983
+2026-08-12 14:06:42,455 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9599.593730877776, have 9585.21112158983
+2026-08-12 14:06:42,512 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9599.593730877776, have 9585.21112158983
+2026-08-12 14:06:42,554 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9599.593730877776, have 9585.21112158983
+2026-08-12 14:06:42,599 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9599.593730877776, have 9585.21112158983
+2026-08-12 14:06:42,624 - AlgoTrading - INFO - Paper Executed: BUY 0.1391840974363243 BTC/USDT @ 64202.32 (Fee: 8.94)
+2026-08-12 14:06:42,624 - AlgoTrading - INFO - Entry: price=64202.32, qty=0.139184, SL=63513.64, TP=65235.32
+2026-08-12 14:06:42,697 - AlgoTrading - INFO - Paper Executed: SELL 0.1391840974363243 BTC/USDT @ 64311.85 (Fee: 8.95)
+2026-08-12 14:06:42,698 - AlgoTrading - INFO - Exit (signal): price=64311.85, pnl=-2.64
+2026-08-12 14:06:42,806 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9596.947873263576, have 9582.569228136757
+2026-08-12 14:06:42,813 - AlgoTrading - INFO - Paper Executed: BUY 0.13225884827426868 BTC/USDT @ 64930.97 (Fee: 8.59)
+2026-08-12 14:06:42,813 - AlgoTrading - INFO - Entry: price=64930.97, qty=0.132259, SL=64206.44, TP=66017.77
+2026-08-12 14:06:42,825 - AlgoTrading - INFO - Paper Executed: SELL 0.13225884827426868 BTC/USDT @ 64174.33 (Fee: 8.49)
+2026-08-12 14:06:42,825 - AlgoTrading - INFO - Exit (stop_loss): price=64174.33, pnl=-117.15
+2026-08-12 14:06:42,843 - AlgoTrading - INFO - Paper Executed: BUY 0.1417018778881706 BTC/USDT @ 63483.34 (Fee: 9.00)
+2026-08-12 14:06:42,843 - AlgoTrading - INFO - Entry: price=63483.34, qty=0.141702, SL=62815.35, TP=64485.31
+2026-08-12 14:06:42,860 - AlgoTrading - INFO - Paper Executed: SELL 0.1417018778881706 BTC/USDT @ 62783.95 (Fee: 8.90)
+2026-08-12 14:06:42,860 - AlgoTrading - INFO - Exit (stop_loss): price=62783.95, pnl=-117.00
+2026-08-12 14:06:42,863 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9362.452533637066, have 9348.425221592068
+2026-08-12 14:06:42,937 - AlgoTrading - INFO - Paper Executed: BUY 0.09376581757096945 BTC/USDT @ 63891.93 (Fee: 5.99)
+2026-08-12 14:06:42,937 - AlgoTrading - INFO - Entry: price=63891.93, qty=0.093766, SL=62894.93, TP=65387.43
+2026-08-12 14:06:42,979 - AlgoTrading - INFO - Paper Executed: SELL 0.09376581757096945 BTC/USDT @ 64697.93 (Fee: 6.07)
+2026-08-12 14:06:42,979 - AlgoTrading - INFO - Exit (signal): price=64697.93, pnl=63.52
+2026-08-12 14:06:43,039 - AlgoTrading - INFO - Paper Executed: BUY 0.1415439328080507 BTC/USDT @ 63277.06 (Fee: 8.96)
+2026-08-12 14:06:43,039 - AlgoTrading - INFO - Entry: price=63277.06, qty=0.141544, SL=62612.11, TP=64274.49
+2026-08-12 14:06:43,093 - AlgoTrading - INFO - Paper Executed: SELL 0.1415439328080507 BTC/USDT @ 62580.81 (Fee: 8.86)
+2026-08-12 14:06:43,093 - AlgoTrading - INFO - Exit (stop_loss): price=62580.81, pnl=-116.37
+2026-08-12 14:06:43,101 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,188 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,403 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.52657076787, have 9295.578555145876
+2026-08-12 14:06:43,413 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,541 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,633 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,638 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.526570767872, have 9295.578555145876
+2026-08-12 14:06:43,698 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9309.52657076787, have 9295.578555145876
+2026-08-12 14:06:43,729 - AlgoTrading - INFO - Backtest completed.
+2026-08-12 14:06:43,735 - AlgoTrading - INFO - TripleEMASignal: fast=8, mid=21, slow=55
+2026-08-12 14:06:43,736 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:43,740 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,740 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,741 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,742 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,742 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,743 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,744 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,744 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,745 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,745 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,746 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,747 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,747 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,748 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,750 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,751 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,752 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,752 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,753 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,754 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,754 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,755 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,755 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,756 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,757 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,757 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,758 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,758 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,759 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,765 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,767 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:43,768 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,769 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:43,769 - AlgoTrading - INFO - Paper Executed: BUY 0.15316917973527988 BTC/USDT @ 63607.79 (Fee: 9.74)
+2026-08-12 14:06:43,769 - AlgoTrading - INFO - Entry: price=63607.79, qty=0.153169, SL=62954.92, TP=64587.10
+2026-08-12 14:06:43,772 - AlgoTrading - INFO - Paper Executed: SELL 0.15316917973527988 BTC/USDT @ 62923.44 (Fee: 9.64)
+2026-08-12 14:06:43,772 - AlgoTrading - INFO - Exit (stop_loss): price=62923.44, pnl=-124.20
+2026-08-12 14:06:43,773 - AlgoTrading - INFO - Paper Executed: BUY 0.1396052908950613 BTC/USDT @ 63007.49 (Fee: 8.80)
+2026-08-12 14:06:43,773 - AlgoTrading - INFO - Entry: price=63007.49, qty=0.139605, SL=62300.08, TP=64068.60
+2026-08-12 14:06:43,776 - AlgoTrading - INFO - Paper Executed: SELL 0.1396052908950613 BTC/USDT @ 62268.93 (Fee: 8.69)
+2026-08-12 14:06:43,776 - AlgoTrading - INFO - Exit (stop_loss): price=62268.93, pnl=-120.60
+2026-08-12 14:06:43,779 - AlgoTrading - INFO - Paper Executed: BUY 0.09512338410476665 BTC/USDT @ 63619.17 (Fee: 6.05)
+2026-08-12 14:06:43,779 - AlgoTrading - INFO - Entry: price=63619.17, qty=0.095123, SL=62593.64, TP=65157.47
+2026-08-12 14:06:43,795 - AlgoTrading - INFO - Paper Executed: SELL 0.09512338410476665 BTC/USDT @ 62562.35 (Fee: 5.95)
+2026-08-12 14:06:43,795 - AlgoTrading - INFO - Exit (stop_loss): price=62562.35, pnl=-112.53
+2026-08-12 14:06:43,814 - AlgoTrading - INFO - Paper Executed: BUY 0.11426047618862752 BTC/USDT @ 63250.64 (Fee: 7.23)
+2026-08-12 14:06:43,815 - AlgoTrading - INFO - Entry: price=63250.64, qty=0.114260, SL=62406.72, TP=64516.52
+2026-08-12 14:06:43,823 - AlgoTrading - INFO - Paper Executed: SELL 0.11426047618862752 BTC/USDT @ 64484.26 (Fee: 7.37)
+2026-08-12 14:06:43,823 - AlgoTrading - INFO - Exit (take_profit): price=64484.26, pnl=126.36
+2026-08-12 14:06:43,824 - AlgoTrading - INFO - Paper Executed: BUY 0.12715974525320406 BTC/USDT @ 64516.24 (Fee: 8.20)
+2026-08-12 14:06:43,824 - AlgoTrading - INFO - Entry: price=64516.24, qty=0.127160, SL=63747.99, TP=65668.61
+2026-08-12 14:06:43,826 - AlgoTrading - INFO - Paper Executed: SELL 0.12715974525320406 BTC/USDT @ 63716.12 (Fee: 8.10)
+2026-08-12 14:06:43,826 - AlgoTrading - INFO - Exit (stop_loss): price=63716.12, pnl=-118.05
+2026-08-12 14:06:43,826 - AlgoTrading - INFO - Paper Executed: BUY 0.1303175126819564 BTC/USDT @ 63949.84 (Fee: 8.33)
+2026-08-12 14:06:43,827 - AlgoTrading - INFO - Entry: price=63949.84, qty=0.130318, SL=63209.26, TP=65060.70
+2026-08-12 14:06:43,855 - AlgoTrading - INFO - Paper Executed: SELL 0.1303175126819564 BTC/USDT @ 63344.30 (Fee: 8.25)
+2026-08-12 14:06:43,855 - AlgoTrading - INFO - Exit (signal): price=63344.30, pnl=-95.50
+2026-08-12 14:06:43,873 - AlgoTrading - INFO - Paper Executed: BUY 0.11928394727073836 BTC/USDT @ 64776.36 (Fee: 7.73)
+2026-08-12 14:06:43,873 - AlgoTrading - INFO - Entry: price=64776.36, qty=0.119284, SL=63975.29, TP=65977.97
+2026-08-12 14:06:43,892 - AlgoTrading - INFO - Paper Executed: SELL 0.11928394727073836 BTC/USDT @ 63943.30 (Fee: 7.63)
+2026-08-12 14:06:43,892 - AlgoTrading - INFO - Exit (stop_loss): price=63943.30, pnl=-114.72
+2026-08-12 14:06:43,917 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,918 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,919 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,920 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,922 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,923 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,924 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,925 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,926 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,927 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,928 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,929 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,930 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,933 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,934 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,935 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,936 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,937 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,938 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,939 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,940 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,941 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,942 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,943 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,944 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,945 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,946 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,947 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,949 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,952 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,955 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,957 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,958 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,959 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.92042203749, have 9440.7545698055
+2026-08-12 14:06:43,959 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,960 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,961 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9454.920422037492, have 9440.7545698055
+2026-08-12 14:06:43,968 - AlgoTrading - INFO - Paper Executed: BUY 0.09835641526164553 BTC/USDT @ 64672.32 (Fee: 6.36)
+2026-08-12 14:06:43,969 - AlgoTrading - INFO - Entry: price=64672.32, qty=0.098356, SL=63712.47, TP=66112.10
+2026-08-12 14:06:43,979 - AlgoTrading - INFO - Paper Executed: SELL 0.09835641526164553 BTC/USDT @ 66079.04 (Fee: 6.50)
+2026-08-12 14:06:43,979 - AlgoTrading - INFO - Exit (take_profit): price=66079.04, pnl=125.50
+2026-08-12 14:06:43,979 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,980 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,981 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,982 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,983 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,984 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,985 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439872, have 9566.254378744567
+2026-08-12 14:06:43,985 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.60854343987, have 9566.254378744567
+2026-08-12 14:06:43,986 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9580.608543439874, have 9566.254378744567
+2026-08-12 14:06:43,987 - AlgoTrading - INFO - Paper Executed: BUY 0.14365963995128464 BTC/USDT @ 66241.05 (Fee: 9.52)
+2026-08-12 14:06:43,987 - AlgoTrading - INFO - Entry: price=66241.05, qty=0.143660, SL=65575.16, TP=67239.90
+2026-08-12 14:06:43,995 - AlgoTrading - INFO - Paper Executed: SELL 0.14365963995128464 BTC/USDT @ 65542.37 (Fee: 9.42)
+2026-08-12 14:06:43,995 - AlgoTrading - INFO - Exit (stop_loss): price=65542.37, pnl=-119.30
+2026-08-12 14:06:44,045 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,046 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,046 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,049 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,050 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,051 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,051 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,052 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,052 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,053 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,053 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,054 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,055 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,055 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,056 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,056 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,057 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.12477202539, have 9446.949624114408
+2026-08-12 14:06:44,058 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,058 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9461.124772025392, have 9446.949624114408
+2026-08-12 14:06:44,059 - AlgoTrading - INFO - Paper Executed: BUY 0.13898821606520778 BTC/USDT @ 64719.79 (Fee: 9.00)
+2026-08-12 14:06:44,059 - AlgoTrading - INFO - Entry: price=64719.79, qty=0.138988, SL=64040.10, TP=65739.34
+2026-08-12 14:06:44,062 - AlgoTrading - INFO - Paper Executed: SELL 0.13898821606520778 BTC/USDT @ 64008.08 (Fee: 8.90)
+2026-08-12 14:06:44,062 - AlgoTrading - INFO - Exit (stop_loss): price=64008.08, pnl=-116.81
+2026-08-12 14:06:44,081 - AlgoTrading - INFO - Paper Executed: BUY 0.1433908917633164 BTC/USDT @ 64697.03 (Fee: 9.28)
+2026-08-12 14:06:44,082 - AlgoTrading - INFO - Entry: price=64697.03, qty=0.143391, SL=64046.35, TP=65673.05
+2026-08-12 14:06:44,083 - AlgoTrading - INFO - Paper Executed: SELL 0.1433908917633164 BTC/USDT @ 64014.33 (Fee: 9.18)
+2026-08-12 14:06:44,083 - AlgoTrading - INFO - Exit (stop_loss): price=64014.33, pnl=-116.35
+2026-08-12 14:06:44,084 - AlgoTrading - INFO - Paper Executed: BUY 0.11215225999617931 BTC/USDT @ 64533.77 (Fee: 7.24)
+2026-08-12 14:06:44,084 - AlgoTrading - INFO - Entry: price=64533.77, qty=0.112152, SL=63712.23, TP=65766.09
+2026-08-12 14:06:44,085 - AlgoTrading - INFO - Paper Executed: SELL 0.11215225999617931 BTC/USDT @ 63680.37 (Fee: 7.14)
+2026-08-12 14:06:44,085 - AlgoTrading - INFO - Exit (stop_loss): price=63680.37, pnl=-110.09
+2026-08-12 14:06:44,092 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,092 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,093 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,093 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,094 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,095 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,095 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,096 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,096 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,097 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,098 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,099 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,100 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,100 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,101 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,102 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9117.358781964473, have 9103.698682091994
+2026-08-12 14:06:44,102 - AlgoTrading - INFO - Paper Executed: BUY 0.13862615897167666 BTC/USDT @ 64329.94 (Fee: 8.92)
+2026-08-12 14:06:44,102 - AlgoTrading - INFO - Entry: price=64329.94, qty=0.138626, SL=63673.23, TP=65315.00
+2026-08-12 14:06:44,107 - AlgoTrading - INFO - Paper Executed: SELL 0.13862615897167666 BTC/USDT @ 63641.39 (Fee: 8.82)
+2026-08-12 14:06:44,107 - AlgoTrading - INFO - Exit (stop_loss): price=63641.39, pnl=-113.19
+2026-08-12 14:06:44,148 - AlgoTrading - INFO - Paper Executed: BUY 0.12742191608627432 BTC/USDT @ 63937.95 (Fee: 8.15)
+2026-08-12 14:06:44,148 - AlgoTrading - INFO - Entry: price=63937.95, qty=0.127422, SL=63232.38, TP=64996.31
+2026-08-12 14:06:44,174 - AlgoTrading - INFO - Paper Executed: SELL 0.12742191608627432 BTC/USDT @ 64963.81 (Fee: 8.28)
+2026-08-12 14:06:44,175 - AlgoTrading - INFO - Exit (take_profit): price=64963.81, pnl=114.29
+2026-08-12 14:06:44,175 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,176 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,176 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,177 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,178 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,179 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,179 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,180 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,181 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,182 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,183 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,184 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,184 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,185 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,185 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,186 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,187 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,188 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,189 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,189 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,198 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,199 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,200 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,201 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,202 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,202 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,203 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,204 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,204 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,205 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,205 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,206 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,207 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,207 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,208 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,209 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,209 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,210 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,211 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,211 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,212 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,212 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,213 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,214 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,215 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,216 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,216 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,217 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,218 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,218 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,219 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,220 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,220 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,221 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,221 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,222 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,223 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,223 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,224 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,224 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,231 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,232 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,232 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,233 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,234 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,235 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,235 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,236 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,237 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,237 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,238 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,239 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,239 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,240 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840933, have 9104.799868638045
+2026-08-12 14:06:44,240 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,242 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,242 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,243 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,243 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,244 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840939, have 9104.799868638045
+2026-08-12 14:06:44,245 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,245 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9118.461620840935, have 9104.799868638045
+2026-08-12 14:06:44,269 - AlgoTrading - INFO - Backtest completed.
+2026-08-12 14:06:44,274 - AlgoTrading - INFO - BreakoutSignal: lookback=20, atr_window=14
+2026-08-12 14:06:44,274 - AlgoTrading - INFO - Starting backtest...
+2026-08-12 14:06:44,392 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:44,394 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.004999999997, have 10000.0
+2026-08-12 14:06:44,397 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10015.005, have 10000.0
+2026-08-12 14:06:44,432 - AlgoTrading - INFO - Paper Executed: BUY 0.09549821418339463 BTC/USDT @ 63859.91 (Fee: 6.10)
+2026-08-12 14:06:44,432 - AlgoTrading - INFO - Entry: price=63859.91, qty=0.095498, SL=62812.77, TP=65430.62
+2026-08-12 14:06:44,446 - AlgoTrading - INFO - Paper Executed: SELL 0.09549821418339463 BTC/USDT @ 62781.37 (Fee: 6.00)
+2026-08-12 14:06:44,447 - AlgoTrading - INFO - Exit (stop_loss): price=62781.37, pnl=-115.09
+2026-08-12 14:06:44,559 - AlgoTrading - INFO - Paper Executed: BUY 0.1155691109791961 BTC/USDT @ 63174.36 (Fee: 7.30)
+2026-08-12 14:06:44,559 - AlgoTrading - INFO - Entry: price=63174.36, qty=0.115569, SL=62319.04, TP=64457.35
+2026-08-12 14:06:44,589 - AlgoTrading - INFO - Paper Executed: SELL 0.1155691109791961 BTC/USDT @ 64425.12 (Fee: 7.45)
+2026-08-12 14:06:44,589 - AlgoTrading - INFO - Exit (take_profit): price=64425.12, pnl=129.80
+2026-08-12 14:06:44,596 - AlgoTrading - INFO - Paper Executed: BUY 0.13035766684860198 BTC/USDT @ 64516.24 (Fee: 8.41)
+2026-08-12 14:06:44,596 - AlgoTrading - INFO - Entry: price=64516.24, qty=0.130358, SL=63747.99, TP=65668.61
+2026-08-12 14:06:44,604 - AlgoTrading - INFO - Paper Executed: SELL 0.13035766684860198 BTC/USDT @ 63716.12 (Fee: 8.31)
+2026-08-12 14:06:44,604 - AlgoTrading - INFO - Exit (stop_loss): price=63716.12, pnl=-121.02
+2026-08-12 14:06:44,775 - AlgoTrading - INFO - Paper Executed: BUY 0.14970188955082983 BTC/USDT @ 63991.98 (Fee: 9.58)
+2026-08-12 14:06:44,775 - AlgoTrading - INFO - Entry: price=63991.98, qty=0.149702, SL=63331.09, TP=64983.32
+2026-08-12 14:06:44,792 - AlgoTrading - INFO - Paper Executed: SELL 0.14970188955082983 BTC/USDT @ 64950.83 (Fee: 9.72)
+2026-08-12 14:06:44,792 - AlgoTrading - INFO - Exit (take_profit): price=64950.83, pnl=124.24
+2026-08-12 14:06:44,794 - AlgoTrading - INFO - Paper Executed: BUY 0.11109800459080255 BTC/USDT @ 65076.50 (Fee: 7.23)
+2026-08-12 14:06:44,794 - AlgoTrading - INFO - Entry: price=65076.50, qty=0.111098, SL=64174.78, TP=66429.08
+2026-08-12 14:06:44,853 - AlgoTrading - INFO - Paper Executed: SELL 0.11109800459080255 BTC/USDT @ 64142.69 (Fee: 7.13)
+2026-08-12 14:06:44,853 - AlgoTrading - INFO - Exit (stop_loss): price=64142.69, pnl=-118.10
+2026-08-12 14:06:44,914 - AlgoTrading - INFO - Paper Executed: BUY 0.12242891131926975 BTC/USDT @ 64291.86 (Fee: 7.87)
+2026-08-12 14:06:44,915 - AlgoTrading - INFO - Entry: price=64291.86, qty=0.122429, SL=63483.24, TP=65504.79
+2026-08-12 14:06:44,998 - AlgoTrading - INFO - Paper Executed: SELL 0.12242891131926975 BTC/USDT @ 64387.78 (Fee: 7.88)
+2026-08-12 14:06:44,998 - AlgoTrading - INFO - Exit (signal): price=64387.78, pnl=-4.01
+2026-08-12 14:06:45,013 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9910.667102900097, have 9895.81842734986
+2026-08-12 14:06:45,017 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 9910.667102900095, have 9895.81842734986
+2026-08-12 14:06:45,030 - AlgoTrading - INFO - Paper Executed: BUY 0.10085820884498271 BTC/USDT @ 65034.51 (Fee: 6.56)
+2026-08-12 14:06:45,030 - AlgoTrading - INFO - Entry: price=65034.51, qty=0.100858, SL=64053.35, TP=66506.25
+2026-08-12 14:06:45,072 - AlgoTrading - INFO - Paper Executed: SELL 0.10085820884498271 BTC/USDT @ 66473.00 (Fee: 6.70)
+2026-08-12 14:06:45,072 - AlgoTrading - INFO - Exit (take_profit): price=66473.00, pnl=131.82
+2026-08-12 14:06:45,074 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.684712144162, have 10027.638240963595
+2026-08-12 14:06:45,288 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.684712144162, have 10027.638240963595
+2026-08-12 14:06:45,290 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.684712144162, have 10027.638240963595
+2026-08-12 14:06:45,303 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.68471214416, have 10027.638240963595
+2026-08-12 14:06:45,306 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.684712144162, have 10027.638240963595
+2026-08-12 14:06:45,320 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10042.684712144162, have 10027.638240963595
+2026-08-12 14:06:45,751 - AlgoTrading - INFO - Paper Executed: BUY 0.14678868343547857 BTC/USDT @ 63999.17 (Fee: 9.39)
+2026-08-12 14:06:45,752 - AlgoTrading - INFO - Entry: price=63999.17, qty=0.146789, SL=63316.04, TP=65023.88
+2026-08-12 14:06:45,889 - AlgoTrading - INFO - Paper Executed: SELL 0.14678868343547857 BTC/USDT @ 64991.36 (Fee: 9.54)
+2026-08-12 14:06:45,889 - AlgoTrading - INFO - Exit (take_profit): price=64991.36, pnl=126.71
+2026-08-12 14:06:45,980 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10169.582675311278, have 10154.346079019711
+2026-08-12 14:06:46,076 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10169.58267531128, have 10154.346079019711
+2026-08-12 14:06:46,079 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10169.58267531128, have 10154.346079019711
+2026-08-12 14:06:46,107 - AlgoTrading - WARNING - Insufficient capital for buy. Needed 10169.582675311278, have 10154.346079019711
+2026-08-12 14:06:46,198 - AlgoTrading - INFO - Backtest completed.
